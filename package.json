@@ -2,7 +2,7 @@
   "name": "taskflow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://WalkerRyan1.github.io/taskflow",
+  "homepage": "https://WalkerRyan1.github.io/TaskFlow",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -30,9 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -53,7 +51,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-beautiful-dnd": "^13.1.8",
-    "gh-pages": "^6.3.0"
+    "@types/react-beautiful-dnd": "^13.1.8"
   }
 }
