@@ -1,8 +1,8 @@
 {
-  "name": "todo-app",
+  "name": "taskflow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/taskflow",
+  "homepage": "https://WalkerRyan1.github.io/taskflow",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

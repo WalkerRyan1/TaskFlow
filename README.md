@@ -1,30 +1,21 @@
 # TaskFlow
 
-A modern task management application built with React, TypeScript, and Material-UI. TaskFlow provides a Kanban-style interface for managing tasks with drag-and-drop functionality.
+A modern task management application built with React, TypeScript, and Material-UI.
 
 ## Features
 
-- 📋 Kanban board layout with three columns: To Do, In Progress, and Completed
-- 🎯 Drag-and-drop task management
-- ✏️ Create, edit, and delete tasks
-- 📝 Task descriptions and priority levels
-- 🎨 Modern, responsive UI with Material-UI
-- 📱 Mobile-friendly design
-
-## Technologies Used
-
-- React 18
-- TypeScript
-- Material-UI
-- react-beautiful-dnd for drag-and-drop functionality
-- date-fns for date formatting
+- Drag and drop task management
+- Priority levels with visual indicators
+- Task status tracking (To Do, In Progress, Completed)
+- Responsive design
+- Modern UI with Material-UI components
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn
+- npm (v6 or higher)
 
 ### Installation
 
@@ -49,21 +40,32 @@ npm start
 
 The application will be available at `http://localhost:3000`.
 
-## Building for Production
+## Deployment
 
-To create a production build:
+This project is configured for deployment to GitHub Pages. To deploy:
 
-```bash
-npm run build
+1. Update the `homepage` field in `package.json` with your GitHub Pages URL:
+
+```json
+{
+  "homepage": "https://yourusername.github.io/taskflow"
+}
 ```
 
-## Contributing
+2. Deploy to GitHub Pages:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+```bash
+npm run deploy
+```
+
+## Technologies Used
+
+- React
+- TypeScript
+- Material-UI
+- react-beautiful-dnd
+- date-fns
+- UUID
 
 ## License
 
